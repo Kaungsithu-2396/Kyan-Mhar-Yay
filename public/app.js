@@ -6,6 +6,7 @@ let contentSection=document.querySelectorAll('.content-section');
 
 btn.addEventListener('click',function(){
     nav.classList.toggle('show-nav');
+    
 })
 
 
