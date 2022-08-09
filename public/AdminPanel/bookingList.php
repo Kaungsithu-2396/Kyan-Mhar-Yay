@@ -21,7 +21,7 @@
             <th>Reserved Doctor</th>
             <th>Category</th>
             <?php 
-                if($_SESSION['user']['Role']=0){
+                if($_SESSION['user']['Role']==0){
             ?>
             <th>Booked by</th>
             <?php 
@@ -41,7 +41,7 @@
                     
                     <td><?php echo category($b['Category_id'])['Name']  ?></td>
                     <?php 
-                        if($_SESSION['user']['Role']=0){
+                        if($_SESSION['user']['Role']==0){
                      ?>
                     <td><?php echo user($b['User_id'])['Name']  ?></td>
                     <?php 

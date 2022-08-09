@@ -181,11 +181,13 @@ function runQuery($sql){
    };
  }
  function bookingLists($id){
-   if($_SESSION['user']['Role']==0 or $_SESSION['doctor']['role']=0){
-      $sql="SELECT * FROM Booking ";
-   }else{
-      $sql="SELECT * FROM Booking WHERE User_id=$id";
-   }
+  if(isset($_SESSION['user'])){
+       if($_SESSION['user']['Role']==0){
+          $sql="SELECT * FROM Booking";
+       }else{
+          $sql="SELECT * FROM Booking WHERE User_id=$id";
+       }
+  }
    
    $query=mysqli_query(conn(),$sql);
    $rows=[];
@@ -195,7 +197,13 @@ function runQuery($sql){
    return $rows;
  }
  function doctorBookingLists($id){
-   $sql="SELECT * FROM Booking WHERE Doctor_id=$id ";
+  if(isset($_SESSION['doctor'])){
+    
+     if($_SESSION['doctor']['role']==1){
+        $sql="SELECT * FROM Booking WHERE Doctor_id=$id";
+        
+     }
+  }
    $query=mysqli_query(conn(),$sql);
    $rows=[];
    while($row=mysqli_fetch_assoc($query)){

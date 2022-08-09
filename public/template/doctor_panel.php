@@ -135,56 +135,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
                  with font-awesome or any other icon font library -->
             <!--  -->
             <?php 
-              if( $_SESSION['user']['Role']==1){
+                if(isset($_SESSION['user'])){
+                    if($_SESSION['user']['Role']==0){
+                        include ('side_bar.php');
+                        include ('booking_side_bar.php');
+                      
+                    }elseif($_SESSION['user']['Role']==1){
+                        include ('booking_side_bar.php');
+                    }
+                }elseif(isset($_SESSION['doctor'])){
+                    if($_SESSION['doctor']['role']==1){
+                        include ('booking_side_bar.php');
+                    }
+                }
+               
             ?>
-            <li class="nav-item">
-              <a href="doctor_reg.php" class="nav-link">
-                
-                <p>
-                  <i class="fa-solid fa-circle-plus px-2"></i>
-                  Doctor Register
-                  
-                </p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="doctor_list.php" class="nav-link px">
-                <i class="nav-icon fas fa-th px-2"></i>
-                <p>
-                  Doctor's List
-  
-                </p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="patient_list.php" class="nav-link">
-                <i class="nav-icon fas fa-th px-2"></i>
-                <p>
-                  Patient's List
-                  
-                </p>
-              </a>
-            </li>
-  
-            <li class="nav-item">
-              <a href="category_add.php" class="nav-link">
-                <i class="nav-icon fas fa-th px-2"></i>
-                <p>
-                  Category's Setting
-                </p>
-              </a>
-            </li>
+           
             <?php 
-              }
+              
             ?>
-            <li class="nav-item">
-              <a href="bookingList.php" class="nav-link px">
-                <i class="nav-icon fas fa-th px-2"></i>
-                <p>
-                  Booking List
-                </p>
-              </a>
-            </li>
+           
             
           </ul>
         </nav>
