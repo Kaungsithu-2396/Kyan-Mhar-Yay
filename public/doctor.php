@@ -76,8 +76,8 @@
      <div class="mt-4 lg:w-full mx-3 lg:mx-7">
         <div class="">
             <ul class="bg-white rounded-lg border border-gray-200 lg:w-96 w-full text-gray-900">
-            <a href="doctor.php"><li class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg bg-blue-600 cursor-pointer text-white">
-               An active item 
+            <a href="doctor.php"><li class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg  cursor-pointer bg-blue-400  text-white">
+               Available Category 
               </li></a>
               <?php 
                 foreach(categories()as $c){

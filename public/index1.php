@@ -75,7 +75,7 @@
                 
                 <li class="md:inline-block text-center  hover:-translate-y-2 transition delay-300  md:pt-0 px-3 md:py-0 py-4 block  pb-3 md:pb-0"><a href="#guide">Steps</a></li>
 
-                <li class="md:inline-block text-center  hover:-translate-y-2 transition delay-300 md:pt-0 px-3 md:py-0 py-4 block  pb-3 md:pb-0"><a href="#testimonal">Testimonal</a></li>
+                <li class="md:inline-block text-center  hover:-translate-y-2 transition delay-300 md:pt-0 px-3 md:py-0 py-4 block  pb-3 md:pb-0"><a href="#testimonal">Testi</a></li>
                 
                 <li class="md:inline-block text-center  hover:-translate-y-2 transition delay-300 md:pt-0 px-3 md:py-0 py-4 block  pb-3 md:pb-0"><a href="#faq">FAQ</a></li>
             
@@ -302,7 +302,7 @@
             <div class=" relative pb-5 rounded-lg">
                 <input type="checkbox" class="absolute top-0 inset-x-0 opacity-0 peer w-full h-12 z-10 cursor-pointer" name="" id="">
                 <div class="bg-gray-200 h-12 flex items-center">
-                    <p class="text-lg font-semibold text-black py-20 px-4 ">Nigga U gay?</p>
+                    <p class="text-lg font-semibold text-black py-20 px-4 ">Doctors' Qualitication</p>
                 </div>
                 <div class="absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180 text-black">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -311,7 +311,7 @@
                 </div>
                 <div class=" text-black overflow-hidden max-h-0 transition-all duration-500 peer-checked:max-h-40 " >
                     <div class="p-3">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ipsa perferendis ut architecto eos ex vitae, voluptatem dolor doloremque ea aliquid, repellendus enim. Deleniti alias error reprehenderit corrupti, voluptatum voluptate.</p>
+                        <p>All the provided doctors are highly qualified with PhD and M.B.B.S</p>
                     </div>
                 </div>
             </div>

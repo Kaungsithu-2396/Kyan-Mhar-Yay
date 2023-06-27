@@ -1,6 +1,6 @@
 <?php 
     include '../template/doctor_panel.php';
-    include '../core/function.php'
+    
    
 
 ?>

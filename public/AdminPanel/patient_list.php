@@ -1,10 +1,7 @@
 <?php 
     include '../template/doctor_panel.php';
     // include '../core/function.php'
-   
-
 ?>
-
 <div class="mx-3">
    <table class="table table-striped">
         <thead>

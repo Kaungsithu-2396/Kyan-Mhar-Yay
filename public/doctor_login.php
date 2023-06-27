@@ -30,9 +30,9 @@
             </div>
           </form>
         </div>
-        <!-- <div class="w-full h-full">
+        <div class="w-full h-full">
             <img src="img/doctor2.jpg" alt="">
-        </div> -->
+        </div>
     </div>
   
 </body>
